@@ -10,7 +10,24 @@
 
 <header></header>
 
-<body>
+<body class="flex-column min-100-vh">
+  <header class="hero">
+      <hi class="app-title"> Raving Roasteries</hi>
+      <p>Search for the best roasteries in town type City & Zipcode in search bar</p>
+  </header>
+
+  <main class="flex-row justify-space-between">
+      <div class="col-12 col-md-4">
+      <div class="card">
+          <h3 class="card-header text-uppercase">Search By City & Zipcode</h3>
+          <form id="user-form" class="car-body">
+            <label class="form-label" for="searchbar">SearchBar</label>
+            <input name="searchbar" id="searchbar" type="text" autofocus="true" class="form-input"/>
+            <button type="submit" class="btn">Search</button>
+          </form>
+      </div>
+      </div>
+  </main>
     
     <script scr="./assets/js/script.js"></script>
 </body>
