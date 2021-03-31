@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(60, 110, 60);
+}
+
+.hero {
+    background-color: grey;
+}
+
+.app-title, p {
+    text-align: center;
+}
+
+.card, .subtitle {
+    text-align: center;
+}
