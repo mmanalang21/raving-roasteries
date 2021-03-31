@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raving Roasteries</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 </head>
 
 <body class="flex-column min-100-vh">
   <header class="hero">
-      <hi class="app-title"> Raving Roasteries</hi>
+      <h1 class="app-title"> Raving Roasteries</h1>
       <p>Search for the best roasteries in town type Zipcode in search bar</p>
   </header>
 
@@ -21,7 +22,7 @@
           <form id="user-form" class="car-body">
             <label class="form-label" for="searchbar">SearchBar</label>
             <input name="zipcode" id="zipcode" type="text" autofocus="true" class="form-input"/>
-            <button type="submit" class="btn">Search</button>
+            <button id="submit" type="submit" class="btn">Search</button>
           </form>
       </div>
       </div>
@@ -31,8 +32,9 @@
           <div id="shop-container" class="list-group"></div>
       </div>
   </main>
-    
+    <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyDDSQ7-2E776J2wfUyGQ7gac5SKdzZvUtc"></script>
     <script src="./assets/js/script.js"></script>
+    <div id="map"></div>
 </body>
 
 <footer></footer>
