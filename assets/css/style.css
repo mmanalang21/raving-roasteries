@@ -1,15 +1,46 @@
 body {
     background-color: rgb(60, 110, 60);
+    background-image: url("../images/coffee\ hero.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    
 }
 
+/* apply style to hero */
 .hero {
     background-color: grey;
 }
-
 .app-title, p {
-    text-align: center;
+    text-align: center;    
 }
 
+/* apply style to card */
 .card, .subtitle {
     text-align: center;
 }
+
+h2, h3, .form-label {
+    color: white;
+    font-weight: normal;
+    font-family: Chalkduster, fantasy;
+}
+
+/* Start Media Queries */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER 
+@media screen and (max-width: 980px) {
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER 
+@media screen and (max-width: 768px) {
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER 
+@media screen and (max-width: 575px) {
+
+}
+
+/* End Media Queries */
