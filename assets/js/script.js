@@ -5,7 +5,7 @@ var shopSearchTerm = document.querySelector("#shop-search-term");
 var shopContainerE1 = document.querySelector("#shop-container");
 var placeid_json = [];
 var map;
-
+//test test
 // create formSubmitHandler 
 var formSubmitHandler = function(event) {
     event.preventDefault();
