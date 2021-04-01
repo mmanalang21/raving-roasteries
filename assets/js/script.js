@@ -144,7 +144,7 @@ var displayMapsUrls = function(mapsUrl, counter) {
   clickMapUrl.href = mapsUrl;
   clickMapUrl.setAttribute("target", "_blank")
   
-  clickMapUrl.textContent = "Click Here to View Google Maps";
+  clickMapUrl.textContent = "View Google Maps";
 
   var titles = document.getElementsByClassName("shopName");
     
